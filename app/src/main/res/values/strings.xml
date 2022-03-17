@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Captain Falcon Random Sound Generator</string>
+    <string name="Button">Generate</string>
+</resources>

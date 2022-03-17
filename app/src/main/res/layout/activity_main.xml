@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mute_city_background"
+    android:orientation="vertical"
+    android:paddingLeft="3dp"
+    android:paddingTop="5dp"
+    android:paddingRight="3dp"
+    android:paddingBottom="3dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="310dp">
+
+        <Button
+            android:id="@+id/Special"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/special_small"
+            android:scaleType="fitCenter" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="95dp"
+        android:layout_height="93dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="310dp">
+
+        <Button
+            android:id="@+id/Dash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rendered_helmet"
+            android:scaleType="fitCenter" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="209dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp">
+
+        <Button
+            android:id="@+id/SuddenDeath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/super_sudden_death"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/Character"
+            android:layout_width="174dp"
+            android:layout_height="249dp"
+            android:background="@drawable/character" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="190dp">
+
+        <Button
+            android:id="@+id/Melee"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/melee_dark_small"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:id="@+id/Yes"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/yes_1"
+            android:rotation="450"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/Game"
+            android:layout_width="193dp"
+            android:layout_height="61dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/game"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/LogoWhite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:tint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/f_zero_white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="45dp">
+
+        <Button
+            android:id="@+id/PinkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:scaleType="centerInside" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp">
+
+        <Button
+            android:id="@+id/RandomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/random"
+            android:scaleType="centerInside"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_ones"
+        android:layout_width="45dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="235dp"
+        android:layout_toStartOf="@+id/image_percentage"
+        android:layout_toLeftOf="@+id/image_percentage"
+        app:srcCompat="@drawable/zero" />
+
+    <ImageView
+        android:id="@+id/image_tens"
+        android:layout_width="45dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="235dp"
+        android:layout_toStartOf="@+id/image_ones"
+        android:layout_toLeftOf="@+id/image_ones"
+        app:srcCompat="@drawable/zero" />
+
+    <ImageView
+        android:id="@+id/image_hundreds"
+        android:layout_width="45dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="235dp"
+        android:layout_toStartOf="@+id/image_tens"
+        android:layout_toLeftOf="@+id/image_tens"
+        app:srcCompat="@drawable/zero" />
+
+    <ImageView
+        android:id="@+id/image_percentage"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="250dp"
+        app:srcCompat="@drawable/percentage" />
+
+</RelativeLayout>
